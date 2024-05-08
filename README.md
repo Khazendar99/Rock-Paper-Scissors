@@ -1,1 +1,1 @@
-## Made Rock paper scissors with JS.
+## Made Rock paper scissors game with JS.
