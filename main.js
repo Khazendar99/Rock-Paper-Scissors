@@ -16,7 +16,7 @@ function getComputerChoice() {
 
 function playRound(humanChoice, computerChoice) {
   if (humanChoice == "rock" && computerChoice == "scissors") {
-    div.style.backgroundColor = "greenyellow";
+    div.style.backgroundColor = "rgb(0, 196, 0)";
     humanScore++;
     return "You win Rock beats Scissors";
   } else if (humanChoice == "rock" && computerChoice == "paper") {
@@ -27,7 +27,7 @@ function playRound(humanChoice, computerChoice) {
     div.style.backgroundColor = "yellow";
     return "You are both Rock, tie";
   } else if (humanChoice == "paper" && computerChoice == "rock") {
-    div.style.backgroundColor = "greenyellow";
+    div.style.backgroundColor = "rgb(0, 196, 0)";
     humanScore++;
     return "You win Paper beats Rock";
   } else if (humanChoice == "paper" && computerChoice == "scissors") {
@@ -38,7 +38,7 @@ function playRound(humanChoice, computerChoice) {
     div.style.backgroundColor = "yellow";
     return "You are both Paper, tie";
   } else if (humanChoice == "scissors" && computerChoice == "paper") {
-    div.style.backgroundColor = "greenyellow";
+    div.style.backgroundColor = "rgb(0, 196, 0)";
     humanScore++;
     return "You win Scissors beats Paper";
   } else if (humanChoice == "scissors" && computerChoice == "rock") {
